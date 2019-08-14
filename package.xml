@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Greyhound_Connect</name>
-    <version>1.0.12</version>
+    <version>1.0.13</version>
     <stability>beta</stability>
     <license uri="http://opensource.org/licenses/MIT">MIT License (MITL)</license>
     <channel>community</channel>
@@ -15,8 +15,8 @@ This software is a beta version for which support is unavailable. It has been te
     <notes>This beta release of the GREYHOUND Connect extension has been tested with Magento CE 1.4 to 1.9.3.</notes>
     <authors><author><name>GREYHOUND Software Development</name><user>digitalguru</user><email>develop@greyhound-software.com</email></author></authors>
     <date>2016-10-18</date>
-    <time>18:13:46</time>
-    <contents><target name="magecommunity"><dir name="Greyhound"><dir name="Connect"><dir name="Helper"><file name="Data.php" hash="5df0dc282ab23a93ed14e0a0af0cf0d6"/></dir><dir name="Model"><file name="Api.php" hash="1136dde7af59507fc458a98145645cec"/></dir><dir name="etc"><file name="api.xml" hash="c0428e5e3e30722c3ad81c3a475ada7d"/><file name="config.xml" hash="feaeabb281088104aaa71653751c284e"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Greyhound_Connect.xml" hash="756fc2610900a3cf231540a3e10eaf8a"/></dir></target><target name="magelocale"><dir name="de_DE"><file name="Greyhound_Connect.csv" hash="4ff2adf53d14e43be63f37ab22ce4651"/></dir></target></contents>
+    <time>18:44:18</time>
+    <contents><target name="magecommunity"><dir name="Greyhound"><dir name="Connect"><dir name="Helper"><file name="Data.php" hash="5df0dc282ab23a93ed14e0a0af0cf0d6"/></dir><dir name="Model"><file name="Api.php" hash="33bff054f391fa932dab7b1fad1acf1c"/></dir><dir name="etc"><file name="api.xml" hash="c0428e5e3e30722c3ad81c3a475ada7d"/><file name="config.xml" hash="4131e88c34cdbaec2d2a415abfbf03c3"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Greyhound_Connect.xml" hash="756fc2610900a3cf231540a3e10eaf8a"/></dir></target><target name="magelocale"><dir name="de_DE"><file name="Greyhound_Connect.csv" hash="4ff2adf53d14e43be63f37ab22ce4651"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>8.0.0</max></php></required></dependencies>
 </package>

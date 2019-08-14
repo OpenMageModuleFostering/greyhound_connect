@@ -14,7 +14,7 @@
 <config>
     <modules>
         <Greyhound_Connect>
-            <version>1.0.12</version>
+            <version>1.0.13</version>
         </Greyhound_Connect>
     </modules>
     <global>

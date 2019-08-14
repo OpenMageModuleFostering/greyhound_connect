@@ -68,7 +68,7 @@ class Greyhound_Connect_Model_Api extends Mage_Api_Model_Resource_Abstract
         $moduleVersion = $moduleConfig['version'];
     }
 
-    return (object)array(
+    return array(
       'module_version' => $moduleVersion,
       'shop_version' => Mage::getVersion(),
       'shop_edition' => function_exists('Mage::getEdition') ? Mage::getEdition() . ' Edition' : ''
