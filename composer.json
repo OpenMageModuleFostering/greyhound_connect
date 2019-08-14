@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Greyhound_Connect",
+    "type": "magento-module",
+    "license": "MIT-License-(MITL)",
+    "homepage": "",
+    "description": "Support extension for the "GREYHOUND Connect für Magento" addon.",
+    "authors": [
+    {
+        "name": "GREYHOUND Software Development",
+        "email": "develop@greyhound-software.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

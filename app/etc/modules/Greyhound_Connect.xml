@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * GREYHOUND Connect extension.
+ *
+ * @category Greyhound
+ * @package Greyhound_Connect
+ * @author digital guru GmbH &amp; Co. KG <develop@greyhound-software.com>
+ * @copyright 2013-2016 digital guru GmbH &amp; Co. KG
+ * @license http://opensource.org/licenses/MIT MIT License
+ * @link greyhound-software.com
+ */
+-->
+<config>
+    <modules>
+        <Greyhound_Connect>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Greyhound_Connect>
+    </modules>
+</config>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * GREYHOUND Connect extension.
+ *
+ * @category Greyhound
+ * @package Greyhound_Connect
+ * @author digital guru GmbH &amp; Co. KG <develop@greyhound-software.com>
+ * @copyright 2013-2016 digital guru GmbH &amp; Co. KG
+ * @license http://opensource.org/licenses/MIT MIT License
+ * @link greyhound-software.com
+ */
+-->
+<config>
+    <api>
+        <resources>
+            <Greyhound_Connect translate="title" module="Greyhound_Connect">
+                <model>Greyhound_Connect/Api</model>
+                <title>GREYHOUND Connect</title>
+                <acl>greyhound_connect</acl>
+                <methods>
+                    <info translate="title" module="Greyhound_Connect">
+                        <title>Retrieve module information</title>
+                        <acl>greyhound_connect/info</acl>
+                    </info>
+                    <list translate="title" module="Greyhound_Connect">
+                        <title>Retrieve order data</title>
+                        <method>items</method>
+                        <acl>greyhound_connect/list</acl>
+                    </list>
+                </methods>
+                <faults module="Greyhound_Connect">
+                    <filters_invalid>
+                        <code>101</code>
+                        <message>Invalid filters specified.</message>
+                    </filters_invalid>
+                </faults>
+            </Greyhound_Connect>
+        </resources>
+        <acl>
+            <resources>
+                <greyhound_connect translate="title" module="Greyhound_Connect">
+                    <title>GREYHOUND Connect</title>
+                    <info translate="title" module="Greyhound_Connect">
+                        <title>Retrieve module information</title>
+                    </info>
+                    <list translate="title" module="Greyhound_Connect">
+                        <title>Retrieve order data</title>
+                    </list>
+                </greyhound_connect>
+            </resources>
+        </acl>
+    </api>
+</config>
